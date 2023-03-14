@@ -1,0 +1,41 @@
+//pseudocode sistem kasir
+
+//judul 
+//sistem kasir
+
+//deskrispi
+//var nama_item : char
+//var uang : integer
+//var harga : integer
+//var jml_brg : integer
+//var total_harga : integer
+//var kembalian : integer
+
+//implementasi
+
+SISTEM Kasir
+
+READ AND WRITE "nama_item" 
+READ AND WRITE "jml_brg"
+READ AND WRITE "harga"
+READ AND WRITE 'total_harga"
+STORE "nama_item"
+STORE "jml_brg"
+SOTRE "harga"
+STORE "total_harga" with calculate "jml_brg" multipy by "harga"
+PRINT "total_harga"
+
+STORE "uang" with number 0 #jika tidak bawa uang cash
+STORE "e_money"
+ IF "uang" less than or equal "e_money"
+    PRINT "bayar dengan uang elektronik"
+ ELSE
+    PRINT "bayar langsung"
+
+STORE "uang" with number 50000 #jka uang 50000
+STORE "total_harga" with number 45000 #jika total harga keseluruhan 45000
+STORE "kembalian" with calculate "uang" subtract with "total_harga"
+PRINT "kembalian"
+
+END
+
